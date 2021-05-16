@@ -7,7 +7,7 @@ public class Conn {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection conn = null;
 		try {
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/connJava", "firstUser", "firstUser");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/connJava", "firstUser", "12345");
 			System.out.println("Connected");
 			
 		}catch(SQLException error) {
